@@ -1087,7 +1087,7 @@ data-styled.g52[id="sc-1t2vga5-0"] {
 /*!sc*/
 .gKdPGs {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
     width: 100%;
     height: 100%;
@@ -1154,7 +1154,7 @@ data-styled.g55[id="sc-tbf0fc-2"] {
 
 /*!sc*/
 .jzKgDP {
-    background: rgba(255, 255, 255, .5);
+/*    background: rgba(255, 255, 255, .5);*/
 }
 
 /*!sc*/
@@ -1278,7 +1278,7 @@ data-styled.g74[id="sc-al88rd-10"] {
     grid-gap: var(--cellSpacing);
     grid-auto-flow: row dense;
     justify-content: center;
-    margin: 16px auto 0;
+    margin: 0;
     padding: 0;
     list-style-type: none;
     --gridTemplateColumns: 3;
@@ -1298,6 +1298,10 @@ data-styled.g74[id="sc-al88rd-10"] {
     .bprtKa {
         --gridTemplateColumns: 3;
         grid-template-areas: 'igc igc igc''igc igc igc''igc igc igc''igc igc igc''... ... ...''a32 a32 a32''a32 a32 a32';
+    }
+
+    .jLkOBn, .ads-600, .jqewXp {
+        display: none;
     }
 }
 
@@ -1341,7 +1345,7 @@ data-styled.g74[id="sc-al88rd-10"] {
 @media (min-width: 1321px) and (max-width: 1540.9px) {
     .bprtKa {
         --gridTemplateColumns: 12;
-        grid-template-areas: 'a16 a16 igc igc igc igc igc igc igc a32 a32 a32''a16 a16 igc igc igc igc igc igc igc a32 a32 a32''a16 a16 igc igc igc igc igc igc igc ... ... ...''a16 a16 igc igc igc igc igc igc igc ir0 ir0 ...''a16 a16 a79 a79 a79 a79 a79 a79 a79 a60 a60 a60''... ... ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... ... ... ...';;
+        grid-template-areas: 'a16 a16 igc igc igc igc igc igc igc a32 a32 a32''a16 a16 igc igc igc igc igc igc igc a32 a32 a32''a16 a16 igc igc igc igc igc igc igc ... ... ...''a16 a16 a79 a79 a79 a79 a79 a79 a79 ir0 ir0 ...''a16 a16 ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... a60 a60 a60''... ... ... ... ... ... ... ... ... ... ... ...';;
     }
 }
 
@@ -2049,7 +2053,7 @@ data-styled.g133[id="sc-1thi3bz-7"] {
 @media (min-width: 1321px) and (max-width: 1540.9px) {
     .cToZbD {
         width: 755px;
-        height: 534px;
+        height: 424px;
     }
 }
 
@@ -2397,7 +2401,7 @@ data-styled.g149[id="sc-1wag0ht-6"] {
     --gameInfoHeight: 64px;
     --maxPageWidth: 1860px;
     --navShadow: 0 6px 32px 0 rgba(0, 0, 0, .24);
-    --denim-blue: #002b50;
+    --denim-blue: #1f0354;
     --green-1: #15c8d1;
     --green-2: #17d7d8;
     --green-3: #18e9da;
